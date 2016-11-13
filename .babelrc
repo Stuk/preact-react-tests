@@ -1,0 +1,14 @@
+{
+	presets: ['es2015', 'react'],
+
+	"plugins": [
+		["module-resolver", {
+			"root": ["."],
+			"alias": {
+				"React": "preact-compat",
+				"ReactDOM": "preact-compat",
+				"ReactTestUtils": "./test-utils"
+			}
+		}]
+	]
+}
